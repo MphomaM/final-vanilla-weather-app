@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(207, 232, 247, 0.6);
+}
+
+h1 {
+  color: black;
+  font-family: google sans, arial, sans-serif;
+  font-size: 35px;
+  font-weight: 150;
+  line-height: 40px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  color: darkgrey;
+  padding: 3px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  margin-left: 30px;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.form-control {
+  color: whitesmoke;
+  background-color: whitesmoke;
+}
+.form-control:focus {
+  border: none;
+  background-color: rgba(207, 232, 247, 0.6);
+}
+.btn-primary {
+  color: #fff;
+  background-color: #5caee4;
+  border-color: #5caee4;
+}
+.btn-primary:hover {
+  color: black;
+  background: lightblue;
+  border-color: #5caee4;
+}
+.location-selector {
+  text-align: center;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+  background: rgba(255, 253, 237, 0.8);
+  color: navy;
+}
+.overview {
+  margin: 10px;
+}
+
+.weather-temperature img {
+  margin-left: 10px;
+  margin-right: 15px;
+  height: 80px;
+  width: 80px;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+  color: navy;
+}
+
+.iconForecast {
+  height: 60px;
+  width: 60px;
+}
+.weather-forecast-temperatures {
+  font-size: 15px;
+  color: navy;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.update {
+  text-align: right;
+  font-size: 15px;
+  color: navy;
+}
+
+.description {
+  text-align: right;
+  font-size: 15px;
+  color: navy;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: navy;
+}
